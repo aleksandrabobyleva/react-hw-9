@@ -1,0 +1,43 @@
+.title {
+  font-size: 43px;
+  color: #1c1919;
+  margin-top: 60px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(211, 198, 249, 0.279);
+  width: 500px;
+  height: 500px;
+  border-radius: 25px;
+  box-shadow: 0 4px 12px rgba(93, 91, 91, 0.345);
+}
+
+.input {
+  width: 300px;
+  margin: 20px;
+}
+.inputContainer {
+  margin-bottom: 10px;
+}
+
+.button{
+   margin-top: 15px;
+   width: 300px;
+   background-color:rgb(22, 19, 22);
+   color: rgb(243, 244, 245);
+    
+}
+
+.message{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.errorMessage{
+    margin-top: 10px;
+    font-size: 15px;
+    max-width: 300px;
+}
